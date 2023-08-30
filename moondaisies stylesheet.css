@@ -1,0 +1,138 @@
+body {
+   background-color: hsl(0, 0%, 84%);
+}
+
+/* this is the Christopher's Moon Daisies main title */
+h1 {
+   font-weight: 200;
+   color: mediumblue;
+   font-family: Impact, Haettenschweiler;
+   font-size: 96px;
+   margin-top: 2%;
+   text-align: center;
+   padding-bottom: 0%;
+}
+
+.text {
+   position: relative;
+   margin-left: 6%;
+   margin-right: 6%;
+   font-size: 24px;
+   line-height: 40px;
+   text-align: left;
+}
+
+#albumcover, #kitchen {
+   display: block;
+   width: 70%;
+   margin-left: auto;
+   margin-right: auto;
+   border-color: blue, 5px;
+   border-style: ridge;
+}
+
+/* Style the navigation menu */
+#menu {
+   width: 84%;
+   background-color: rgb(213, 233, 123);
+   margin-left: 6%;
+   overflow: auto;
+   text-align:inherit;
+   border: mediumblue;
+   border-style: outset;
+   border-width:medium
+ }
+
+ /* Navigation links */
+ #menu a {
+    float: left;
+    text-align: center;
+   padding: auto;
+   color: rgb(30, 7, 231);
+   text-decoration: none;
+   font-size: 24px;
+   width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    /* If you want the text to be centered */
+ }
+
+ /* Navbar links on mouse-over */
+ #menu a:hover {
+   color: white;
+ }
+
+ /* Current/active navbar link */
+ #menu a.active {
+   background-color: transparent;
+   color: mediumblue;
+   font-weight: bolder;
+ }
+
+
+ @media screen and (max-width: 500px) {
+   #menu a {
+     float: none;
+     display: block;
+   }
+ }
+
+/* this is the pages titles */
+ h2 {
+  font-weight: 100;
+  color: mediumblue;
+  font-family: Impact, Haettenschweiler;
+  font-size: 48px;
+  margin-top: 2%;
+  text-align: center;
+  padding-bottom: 0%;
+}
+
+/* red subheaders */
+.subtitle {
+
+  max-width: 15%;
+  margin-bottom: 3em;
+  margin-left: 4%;
+  padding: 65px;
+  transform: rotate(-12deg);
+  font-weight: bold;
+  color: rgb(228, 77, 31);
+  font-family: Impact, Haettenschweiler;
+  font-size: 62px;
+  float: left;
+  margin-top: 2%;
+
+}
+
+#nightandthecity {
+  max-width: 90%;
+  margin-left: 5%;
+  height: auto;
+  border: midnightblue;
+  border-style: ridge;
+}
+
+#mr2vid {
+  margin-right: 6%;
+  margin-top: 2%;
+  float: right;
+  height: 380px;
+  width: 600px;
+
+}
+
+#videotext {
+  float: left;
+  margin-top: 10%;
+  font-size: 24px;
+  line-height: 40px;
+  margin-left: -13%;
+}
+
+#dvd {
+  max-width: 80%;
+  margin-left: 28%;
+
+  height: auto;
+  border: midnightblue;
+  border-style: ridge;
+}
